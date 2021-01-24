@@ -1,0 +1,112 @@
+body {
+    background-color:rgb(255,255,0);
+    color:black;
+}
+
+.page-title {
+    text-shadow: 2px 12px 4px #404040;
+}
+
+.logolink, .logolink:visited, .logolink:active, .logolink:hover {
+    color:black;
+}
+
+ul li {
+    color:black;
+}
+
+ul li a {
+    color: black;
+}
+
+ul li a:visited {
+    color:black;
+}
+
+ul li a:hover {
+    color:black;
+}
+
+ul li a:active {
+    color: black;
+}
+
+.goll-info {
+    color:#000000;
+}
+
+.goll-action-right {
+    color:#505050;
+}
+
+.goll-action-center {
+    color:#505050;
+}
+
+.goll-back {
+    border:1px solid #505050;
+}
+
+.goll-front {
+    border:1px solid #505050;
+}
+
+.congratulations {
+    color:black;
+}
+
+.button, .action-button {
+	background-color:rgb(255,255,102);
+    border:1px solid black;
+    color:black;
+}
+
+.button:hover, .action-button:hover {
+	background-color:rgb(255,255,143);
+}
+
+
+@keyframes blink {
+    from, to {
+        background-color: rgb(255,255,102);
+    }
+    50% {
+        background-color:rgb(255,255,143);
+        font-weight: bold;
+    }
+}
+
+@keyframes congratulations-grow {
+    from {
+        background-color: rgba(255,255,102,0);
+        font-size:0vh;
+    }
+    to {
+        background-color: rgba(255,255,102,.85);
+        font-size: 5vh;
+    }
+}
+
+@keyframes congratulations-poem {
+    from {
+        background-color: rgba(255,255,102,0);
+        font-size:0;
+    }
+    to {
+        background-color: rgba(255,255,102,.85);
+        font-size: 5vh;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    @keyframes congratulations-grow {
+        from {
+            background-color: rgba(255,255,102,0);
+            font-size:0vh;
+        }
+        to {
+            background-color: rgba(255,255,102,.85);
+            font-size: 3vh;
+        }
+    }
+}
