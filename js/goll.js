@@ -4,7 +4,7 @@
  */
 let STARTING_PAIRS = 4;
 let numberOfPairs = STARTING_PAIRS;
-let MAX_NUM_CARDS = 67;
+let MAX_NUM_CARDS = 36;
 let SECONDS_PER_CARD = 3;
 let CHEAT_MIN_SCORE = 100;
 let cd = null;
